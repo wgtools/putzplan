@@ -64,7 +64,7 @@ fn get_calendar() -> Context {
     /*
     Vec of strings of names of people
     */
-    let people: Vec<String> = vec!["sina", "marco", "kiv", "viki", "dietz", "alena"]
+    let people: Vec<String> = vec!["marco", "kiv", "viki", "dietz", "alena"]
         .iter()
         .map(|i| i.to_string())
         .collect();
